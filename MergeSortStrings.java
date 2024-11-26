@@ -1,4 +1,4 @@
-//modificação do algoritmo para ordenar uma lista de strings em ordem alfabética
+// Modifique o Merge Sort para ordenar strings em ordem alfabética.
 
 public class MergeSortStrings {
 

@@ -1,3 +1,6 @@
+//Crie uma função que implemente o Interpolation Search e teste-a em listas ordenadas com intervalos uniformes e não uniformes. Compare com o Binary Search.
+//Identifique casos em que o Interpolation Search é mais eficiente que o Binary Search.
+
 public class InterpolationSearch {
 
     public static int interpolationSearch(int[] arr, int x) {

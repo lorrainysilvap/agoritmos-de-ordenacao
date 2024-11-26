@@ -1,3 +1,6 @@
+//Desenvolva o algoritmo Jump Search e determine o tamanho ideal do "salto" para uma lista de tamanho.
+//Compare o tempo de execução do Jump Search com o Binary Search em listas de diferentes tamanhos.
+
 import java.util.Arrays;
 
 public class JumpSearch {

@@ -1,3 +1,7 @@
+//Implemente o algoritmo Exponential Search para localizar um elemento em uma lista ordenada. 
+//Explique como ele combina elementos do Jump Search e Binary Search.
+//Analise o desempenho do Exponential Search em listas muito grandes e pequenas.
+
 import java.util.Arrays;
 
 public class ExponentialSearch {

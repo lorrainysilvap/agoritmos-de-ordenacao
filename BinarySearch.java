@@ -1,3 +1,6 @@
+//Implemente o algoritmo Binary Search em uma lista ordenada e encontre o índice de um elemento dado.
+//Explique por que a lista deve estar ordenada para que o Binary Search funcione corretamente. Forneça exemplos.
+
 public class BinarySearch {
     
     // Função Binary Search

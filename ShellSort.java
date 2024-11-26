@@ -1,3 +1,6 @@
+//Implemente o Shell Sort com diferentes sequências de intervalo (ex.: Shell, Knuth, Hibbard). Compare os tempos de execução.
+//Explique como a escolha da sequência de intervalos afeta a eficiência do algoritmo.
+
 public class ShellSort {
 
     public static void shellSort(int[] arr, int[] gaps) {

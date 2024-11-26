@@ -1,3 +1,5 @@
+//Implemente o Merge Sort para ordenar uma lista de números inteiros. Explique o conceito de "dividir para conquistar" usado nesse algoritmo.
+
 public class MergeSortInt {
 
     public static void mergeSort(int[] arr, int left, int right) {
