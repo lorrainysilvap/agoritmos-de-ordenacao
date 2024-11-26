@@ -57,7 +57,6 @@ public class JumpSearch {
 //O tamanho ideal do salto para uma lista de tamanho n é geralmente a raiz quadrada de n, ou seja, Math.sqrt(n). 
 //Isso minimiza o número total de operações de comparação em média.
 
-//Comparação de Tempo de Execução
-//A implementação acima inclui uma comparação de tempo de execução entre o Jump Search e o Binary Search. 
+//Comparação de Tempo de Execução 
 //O Jump Search pode ser mais eficiente do que o Binary Search em listas muito grandes, especialmente quando o elemento procurado está perto do início da lista. 
 //O Binary Search, por outro lado, é geralmente mais consistente em termos de desempenho para listas ordenadas de qualquer tamanho e distribuição.
