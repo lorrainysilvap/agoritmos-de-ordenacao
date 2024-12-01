@@ -1,12 +1,13 @@
-//Adapte o Bucket Sort para ordenar números inteiros positivos em intervalos maiores.
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Arrays;
 
 public class BucketSortIP {
 
     public static void bucketSort(int[] arr, int maxValue) {
         int n = arr.length;
-        int numBuckets = (int) Math.sqrt(n);
+        int numBuckets = (int) Math.ceil((double) maxValue / n); // Criar mais intervalos para baldes
 
         // Criar baldes
         @SuppressWarnings("unchecked")
@@ -18,7 +19,7 @@ public class BucketSortIP {
 
         // Distribuir os elementos nos baldes
         for (int num : arr) {
-            int bucketIndex = (int) ((float) num / maxValue * (numBuckets - 1));
+            int bucketIndex = Math.min(num / numBuckets, numBuckets - 1); // Ajuste para distribuir corretamente
             buckets[bucketIndex].add(num);
         }
 
@@ -50,4 +51,3 @@ public class BucketSortIP {
         }
     }
 }
-
