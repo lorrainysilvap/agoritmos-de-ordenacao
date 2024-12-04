@@ -1,3 +1,5 @@
+//Adapte o Bucket Sort para ordenar números inteiros positivos em intervalos maiores.
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

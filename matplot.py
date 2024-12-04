@@ -1,3 +1,5 @@
+#Crie gráficos para ilustrar como os algoritmos de ordenação (Merge Sort, Quick Sort, Selection Sort) reorganizam os elementos a cada etapa.
+
 import matplotlib.pyplot as plt
 import numpy as np
 

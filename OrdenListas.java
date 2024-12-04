@@ -1,6 +1,5 @@
 //Identifique quais algoritmos de ordenação da lista são estáveis e explique o que isso significa. Demonstre com exemplos.
 
-
 import java.util.Arrays;
 
 public class OrdenListas {

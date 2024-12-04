@@ -1,3 +1,6 @@
+//Crie um programa que permita ao usuário escolher um algoritmo de busca e ordenação para ordenar uma lista ou procurar um elemento, 
+//oferecendo comparações automáticas entre os métodos.
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
